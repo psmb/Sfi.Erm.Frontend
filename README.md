@@ -1,29 +1,6 @@
-# Foundation Compass Template
+# Frontend code for ermolaev.co
 
-The easiest way to get started with Foundation + Compass.
+This is only the frontend code. You may browse around and reuse the ideas that you like.
 
-## Requirements
+The backaend code is here: [github.com/dimaip/Sfi.Erm](https://github.com/dimaip/Sfi.Erm)
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
-
-## Quickstart
-
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
-
-```bash
-bundle exec compass watch
-```
-
-## Upgrading
-
-If you'd like to upgrade to a newer version of Foundation down the road just run:
-
-```bash
-bower update
-```
