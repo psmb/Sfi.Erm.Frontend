@@ -1,0 +1,99 @@
+.Sections-Tabs {
+    margin: 0;
+    padding: 0;
+}
+
+.Sections-Tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.Sections-Panel {
+    overflow: hidden;
+    height: 0;
+}
+
+.Sections-Panel.isActive {
+    overflow: initial;
+    height: initial;
+}
+
+.Sections-Tabs {
+    display: none;
+}
+
+/* Accordion responsive breakpoint */
+@media #{$medium-up} {
+    .Sections-Tabs {
+        display: block;
+    }
+
+    .Sections-AccordionTitle {
+        display: none;
+    }
+    .Sections--AccordionOnly .Sections-AccordionTitle {
+        display: block;
+    }
+}
+
+
+
+
+
+
+//Tab styling
+//TODO: refactor it into different layer
+.Sections{
+    text-align: center;
+    margin: 2*$u 0;
+}
+.Sections-Tabs{
+    margin-top: 6*$u;
+    margin-bottom: 4*$u;
+    text-align: left;
+}
+@media #{$medium-up} {
+    .Sections-Tabs {
+        display: inline-block !important;
+    }
+}
+.Sections-Tab{
+    margin: 0 2*$u;
+}
+.Sections-Panel{
+    text-align: left;
+}
+.Sections-Anchor{
+    padding: $u 3*$u;
+    display: inline-block;
+
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: $color-primary;
+    text-transform: uppercase;
+}
+.Sections-Tab .Sections-Anchor{
+}
+.Sections-AccordionTitle .Sections-Anchor{
+    display: block;
+    border-bottom: 1px solid $color-line;
+}
+.Sections-AccordionTitle .Sections-Anchor:after{
+    content: '\25be';
+    display: inline-block;
+    float: right;
+}
+.Sections-AccordionTitle .Sections-Anchor.isActive:after{
+    content: '\25b4';
+    display: inline-block;
+    float: right;
+}
+.Sections-Anchor.isActive{
+    background: $color-primary;
+    color: white;
+}
+.Sections-AccordionTitle .Sections-Anchor.isActive{
+    margin-bottom: $u;
+}

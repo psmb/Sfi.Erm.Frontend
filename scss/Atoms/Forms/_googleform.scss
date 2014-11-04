@@ -1,0 +1,43 @@
+.ss-required-asterisk{
+  color: $red !important;
+  font-weight: bold;  
+}
+
+
+.ss-form-question{
+	margin: 1*$u 0;
+}
+
+
+
+.ss-choices{
+	overflow: auto;
+}
+.ss-choice-item .ss-choice-label{
+	font-size: rem-calc(14) !important;
+}
+.ss-choices[role="radiogroup"] .ss-choice-item{
+	margin-right: 2*$u;
+}
+.ss-choices[role="group"] .ss-choice-item{
+	display: block;
+	overflow: auto;
+}
+
+.ss-choice-item{
+	display: inline-block;
+}
+
+.ss-datetime-box{
+	overflow: auto;
+}
+.ss-datetime-box select{
+	width: 100px;
+}
+
+.goog-inline-block {
+	display: inline-block;
+}
+.ss-datetime-box-spacer{
+	margin-right: $u;
+}

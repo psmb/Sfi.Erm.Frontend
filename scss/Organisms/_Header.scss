@@ -1,0 +1,16 @@
+.Header{
+	margin: 2*$u 0;
+}
+
+.Header-Contacts{
+	.columns{
+	}
+}
+@media #{$medium-up} {
+	.Header-Logo{
+		float: left;
+	}
+	.Header-Contacts{
+		float: right;
+	}
+}

@@ -1,0 +1,19 @@
+form{
+  font-size: rem-calc(18);
+}
+
+
+input,textarea,select{
+  // TODO: Ouups.. A lucky number and a ahck
+}
+textarea{
+  font-family: inherit;
+}
+input[type="submit"]{
+  @extend .Button--Light;
+}
+
+
+input[type="file"], input[type="checkbox"], input[type="radio"], select {
+margin: 0 0 0.5rem 0;
+}

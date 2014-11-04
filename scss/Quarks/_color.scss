@@ -1,0 +1,25 @@
+$cyan: #55c0e8;
+$gray: #a9a9aa;
+$gray--dark: #666;
+$gray--light: #cbcccc;
+$gray-bg: #f6f6f6;
+$yellow: #ffffd6;
+$red: red;
+
+$color-primary: $cyan;
+
+$color-line: $gray--light;
+
+.color-white{
+	color: white !important;
+}
+.color-primary{
+	color: $color-primary !important;
+}
+
+.backgroundColor-white{
+	background-color: white !important;
+}
+.borderColor-white{
+	border-color: white !important;
+}

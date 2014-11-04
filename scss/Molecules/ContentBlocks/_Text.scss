@@ -1,0 +1,13 @@
+.Text,.Heading{
+	h1{
+		@extend .H1;
+	}
+	h2{
+		@extend .H2;
+	}
+	h3{
+		@extend .H3;
+	}
+	p{@extend .Paragraph;}
+	a{@extend .Link;}
+}

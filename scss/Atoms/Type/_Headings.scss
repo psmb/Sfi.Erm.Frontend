@@ -1,0 +1,31 @@
+%mainHeadings{
+	@extend .marginVertical-single;
+	font-family: $fontFamily-main;
+	line-height: 1.2;
+	font-weight: normal;
+	color: $color-primary;
+}
+.H1{
+	@extend %mainHeadings;
+	font-size: rem-calc(36);
+}
+.H2{
+	@extend %mainHeadings;
+	font-size: rem-calc(24);
+}
+.H3{
+	@extend %mainHeadings;
+	font-size: rem-calc(18);
+}
+
+
+
+
+
+
+
+
+
+.PageTitle{
+	@extend .H1;
+}

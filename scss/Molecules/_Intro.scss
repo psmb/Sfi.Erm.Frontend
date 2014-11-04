@@ -1,0 +1,16 @@
+
+.Intro-Text{
+	padding: 0 2*$u;
+}
+.Intro-Text{
+	p{
+		font-family: $fontFamily-alt;
+		font-size: rem-calc(18);
+	}
+	h3{
+		font-size: rem-calc(16);
+		border-top: 1px solid $color-line;
+		padding-top: $u/2;
+		color: inherit;
+	}
+}

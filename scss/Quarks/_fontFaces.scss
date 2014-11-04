@@ -1,0 +1,18 @@
+/* 
+Font declarations
+ */
+// No Agora for today!
+// @font-face{
+// font-family:"Agora";
+// src:url("/_Resources/Static/Packages/Sfi.Erm/fonts/Agora.woff") format("woff");
+// font-weight:400;font-style:normal;
+// }
+
+$fontFamily-main: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$fontFamily-alt: Georgia, Times, "Times New Roman", serif; 
+
+body{
+	font-size: rem-calc(16);
+	font-family: $fontFamily-main;
+	color: $gray--dark;
+}

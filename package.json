@@ -1,0 +1,15 @@
+{
+  "name": "Sfi.Erm",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.8.0",
+    "grunt-contrib-watch": "~0.4.3",
+    "matchdep": "~0.1.2",
+    "grunt-browser-sync": "~0.9.1",
+    "grunt-bower-concat": "~0.4.0"
+  },
+  "dependencies": {
+    "responsive-tabs": "git://github.com/dimaip/Responsive-Tabs.git"
+  }
+}

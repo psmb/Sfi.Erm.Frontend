@@ -1,0 +1,11 @@
+.Doctor-Short{
+	.Doctor-Title{
+		@extend .Paragraph;
+		color: $color-primary;
+		margin-bottom: $u/2;
+	}
+	.Doctor-Description{
+		@extend .Paragraph--Small;
+		margin-top: 0;
+	}
+}

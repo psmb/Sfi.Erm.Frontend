@@ -1,0 +1,21 @@
+.Circles{
+	position: absolute;
+	z-index: 100;
+	left: 63px;
+	top: -55px;
+	span{
+		width: 40px;
+		height: 40px;
+		border: 7px solid $color-primary;
+		border-radius: 50%;
+		display: block;
+		opacity: 0.8;
+		margin-top: 3*$u;
+	}
+}
+
+@media #{$small-only} {
+	.Circles span:last-child{
+		display: none;
+	}
+}

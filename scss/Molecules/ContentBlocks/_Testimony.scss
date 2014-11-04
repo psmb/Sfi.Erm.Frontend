@@ -1,0 +1,16 @@
+.Testimony{
+	margin-bottom: 2*$u;
+	border-top: 3px solid $color-primary;
+}
+.Testimony-Text{
+	@extend .Paragraph;
+}
+
+.Testimony-Name{
+	@extend .Paragraph;
+	color: $gray--light;
+	// Hack for em dash to stay inline
+	p{
+		display: inline;
+	}
+}

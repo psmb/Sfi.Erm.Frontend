@@ -1,0 +1,57 @@
+$u: 12px;
+
+$intervals: (
+    none: 0,
+	single: 1,
+	sesquialteral: 1.5,
+	double: 2,
+	triple: 3
+);
+
+
+
+@each $intervalName, $intervalValue in $intervals {
+    .margin-#{$intervalName}{
+        margin: $intervalValue*$u;
+    }
+    .marginVertical-#{$intervalName}{
+        margin: $intervalValue*$u 0;
+    }
+    .marginHorizontal-#{$intervalName}{
+        margin: 0 $intervalValue*$u;
+    }
+    .marginTop-#{$intervalName}{
+        margin-top: $intervalValue*$u;
+    }
+    .marginRight-#{$intervalName}{
+        margin-right: $intervalValue*$u;
+    }
+    .marginBottom-#{$intervalName}{
+        margin-bottom: $intervalValue*$u;
+    }
+    .marginLeft-#{$intervalName}{
+        margin-left: $intervalValue*$u;
+    }
+
+    .padding-#{$intervalName}{
+        padding: $intervalValue*$u;
+    }
+    .paddingVertical-#{$intervalName}{
+        padding: $intervalValue*$u 0;
+    }
+    .paddingHorizontal-#{$intervalName}{
+        padding: 0 $intervalValue*$u;
+    }
+    .paddingTop-#{$intervalName}{
+        padding-top: $intervalValue*$u;
+    }
+    .paddingRight-#{$intervalName}{
+        padding-right: $intervalValue*$u;
+    }
+    .paddingBottom-#{$intervalName}{
+        padding-bottom: $intervalValue*$u;
+    }
+    .paddingLeft-#{$intervalName}{
+        padding-left: $intervalValue*$u;
+    }
+}

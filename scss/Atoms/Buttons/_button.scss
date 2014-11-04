@@ -1,0 +1,54 @@
+.Button{
+	display: inline-block;
+	margin: $u $u $u 0;
+	font-weight: bold;
+	font-size: rem-calc(16);
+	text-align: center;
+	transition: color 300ms ease-out;
+	&:after {
+		content: ' »';
+	}
+}
+
+.Button--Dark{
+	background: $color-primary;
+	color: white;
+	border: none;
+	padding: $u 3*$u;
+}
+
+.Button--Light{
+	@extend .Button;
+	display: block;
+	color: $color-primary;
+	padding: $u 2*$u;
+	background: white;
+	border: 3px solid $color-primary;
+}
+@media #{$medium-up}{
+	.Button--Light{
+		display: inline-block;
+	}
+}
+
+.Button--Light:hover{
+	background: $color-primary;
+	color: white;
+}
+
+.Button--LightSmall{
+	@extend .Button--Light;
+	font-weight: normal;
+	border-width: 2px;
+	padding: $u/4 $u/2;
+	margin: $u 0;
+	white-space: nowrap;
+}
+
+.ButtonInline{
+	display: inline-block;
+	color: $color-primary;
+	&:after {
+		content: ' »';
+	}
+}

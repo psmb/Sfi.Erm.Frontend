@@ -1,0 +1,37 @@
+.ServiceCategory-Title{
+	@extend .H3;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ServiceShort{
+	// border-top: 5px solid $color-primary;
+}
+.ServiceShort-Title{
+	@extend .H3;
+	font-size: rem-calc(16);
+	text-decoration: underline;
+	text-align: center;
+}
+
+.ServicePrice{
+	display: none;
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		font-size: rem-calc(14);
+	}
+	tr:nth-child(odd) {
+		background: $gray-bg;
+	}
+	td{
+		padding: $u;
+		border: 1px solid $color-line;
+	}
+	td:last-child{
+		min-width: 100px;
+	}
+	td:last-child:after{
+		content:' руб.';
+	}
+}

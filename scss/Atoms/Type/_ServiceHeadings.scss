@@ -1,0 +1,13 @@
+.Service{
+	font-family: $fontFamily-main;
+	font-size: rem-calc(14);
+	color: $gray--dark;
+	line-height: 1.3;
+}
+
+
+.ServiceLarge{
+	color: $color-primary;
+	font-size: rem-calc(21);
+	margin: $u 0;
+}

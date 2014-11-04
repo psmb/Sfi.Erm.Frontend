@@ -1,0 +1,13 @@
+.DoctorFull-Title{
+	@extend .H1;
+}
+
+.DoctorFull-Credo{
+	font-family: $fontFamily-alt;
+	font-style: italic;
+	margin: 3*$u 0;
+}
+
+.DoctorFull-Text{
+	margin: 3*$u 0;
+}

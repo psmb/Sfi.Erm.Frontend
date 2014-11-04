@@ -1,0 +1,14 @@
+.Paragraph{
+	margin: $u 0;
+	font-size: rem-calc(16);
+	line-height: 1.5;
+	color: $gray--dark;
+}
+.Paragraph--Large{
+	@extend .Paragraph;
+	font-size: rem-calc(18);
+}
+.Paragraph--Small{
+	@extend .Paragraph;
+	font-size: rem-calc(14);
+}

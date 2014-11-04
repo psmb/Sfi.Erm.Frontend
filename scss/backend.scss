@@ -1,0 +1,14 @@
+
+@media only screen {
+	.neos-backend{
+		.show-for-small-only, .show-for-small-up, .hide-for-medium-only, .hide-for-medium-up, .hide-for-large-only, .hide-for-large-up, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
+			display: inherit !important;
+			background: lightgrey;
+		}
+
+		.hide-for-small-only, .hide-for-small-up, .show-for-medium-only, .show-for-medium-up, .show-for-large-only, .show-for-large-up, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
+			display: inherit !important;
+			background: lightgrey;
+		}
+	}
+}

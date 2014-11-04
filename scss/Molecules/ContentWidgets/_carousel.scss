@@ -1,0 +1,19 @@
+.Carousel{
+	margin: 6*$u 0;
+}
+
+.Carousel .slick-dots li button{
+	width: 12px;
+	height: 12px;
+	border: 2px solid #55c0e8;
+	border-radius: 50%;
+	display: block;
+	opacity: 0.8;
+	&:before{
+		content: '' !important;
+	}
+}
+.Carousel .slick-dots li.slick-active button{
+	border-color: $gray--light;
+}
+
